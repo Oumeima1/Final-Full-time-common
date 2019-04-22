@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<script src="text.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<title> Shopping Cart </title>
+</head>
+<body> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img src="https://png.pngtree.com/element_our/png_detail/20180823/bundle-shopping-logo-design-template-vector-png_62614.jpg" class="logo">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="font-family:sans-serif"><strong>On line</strong></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Contact Us</a>
+                    </li>
+                  </ul>
+                  <div class="header-login-li" style="margin-left:5px;margin-right:5px;">
+                        <a href="#" data-toggle="modal" data-target="#login-modal"><big>
+                            <font color="white" type="button" class="btn btn-primary" data-toggle="modal"><center style="margin-top:3px;">Login</center></font>
+                            </big></a>
+                         <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	                  <div class="modal-dialog">
+			                 	<div class="loginmodal-container">
+				                       	<h1>Login to Your Account</h1><br>
+				                         <form>
+					                        <input type="text" name="user" placeholder="Username">
+					                        <input type="password" name="pass" placeholder="Password">
+                                  <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				                         </form>
+					
+				                 <div class="login-help">
+				            	<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				             </div>
+			              	</div>
+		                	</div>
+		                  </div>
+                   <div class="header-register-li" style="margin-left:5px;margin-right:5px;">
+                        <a data-toggle="modal" href="#regestration" class="header-register-a" >
+                        <big>
+                        <font color="white" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><center style="margin-top:3px;">Register</center></font>
+                        </big></a></div>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" >
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search" ></i></button>
+                  </form>
+                </div>
+        </nav>
+        <section class="header">
+            <div class="side-menu">
+                <ul>
+                    <li>Scraft<i class="fas fa-angle-right"></i>
+                        <ul>
+                            <li>Sub menu -1</li>
+                            <li>Sub menu -1</li>
+                            <li>Sub menu -1</li>
+                            <li>Sub menu -1</li>
+                        </ul>
+                    </li>
+                    <li>Mobiles<i class="fas fa-angle-right"></i>
+                        <ul>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                        </ul>
+                    </li>
+                    <li>Watchs<i class="fas fa-angle-right"></i>
+                        <ul>
+                            <li>Sub menu -3</li>
+                            <li>Sub menu -3</li>
+                            <li>Sub menu -3</li>
+                            <li>Sub menu -3</li>
+                            </ul>
+                    </li>
+                    <li>Sneakers<i class="fas fa-angle-right"></i>
+                        <ul>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                        </ul>
+                    </li>
+                    <li>
+                            Jewelry<i class="fas fa-angle-right"></i>
+                        <ul>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                            <li>Sub menu -2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+                <div class="slider">
+                        <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="https://3.bp.blogspot.com/-8PbPNY6M4Bc/WUgIbiZhCVI/AAAAAAAAAKU/ntEeOSjm4UMwjxuQ9VZgNzmnxc3aFal1gCLcBGAs/s1600/How-to-save-money-while-shopping-online-4-2-iloveimg-compressed.jpg" class="d-block w-100">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://img.huffingtonpost.com/asset/5c92b6ba3b0000a9076de487.jpeg?ops=scalefit_630_noupscale" class="d-block w-100">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="http://48hours.co.za/nuevo/wp-content/uploads/2018/02/Online-shopping-is-great-but-nothing-beats-physical-retail-therapy.jpg" class="d-block w-100">
+                                  </div>
+                                </div>
+                                <ol class="carousel-indicators">
+                                        <li data-target="#slider" data-slide-to="0" class="active"></li>
+                                        <li data-target="#slider" data-slide-to="1"></li>
+                                        <li data-target="#slider" data-slide-to="2"></li>
+                                      </ol>
+                              </div>
+            </div>
+        </section>
+        <!-- ----------featured categories--------- -->
+
+        <!-- modal register -->
+
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Formulaire d'inscription</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                        <main>
+                    <form class="cases">
+                    <ul>
+                    <li><label for="nom">Nom</label><input type="text" name="nom" id="nom" /></li>
+                    <li><label for="prenom">Prénom</label><input type="text" name="prenom" id="prenom" /></li>
+                    <li><label for="age">Age</label><input type="text" name="age" id="age" /></li>
+                    <li><label for="age">Adresse</label><input type="text" name="adress" id="adress" /></li>
+                    <li><label for="age">Adresse-email</label><input type="text" name="adress-email" id="adress-email"/></li>
+                    <li><label for="age">PassWord</label><input type="text" name="password" id="password"  /></li>
+                    <li>Votre message:<br/><textarea name="message" rows="4" cols="6" ></textarea></li>
+                    <li>
+                    <select name="niveau">
+                    <option value="0">Débutant</option>
+                    <option value="1">Confirmé</option>
+                    <option value="2">Expert</option>
+                    </select>
+                    </li>
+                    <li id="submit"><input type="button" id="envoyer" value="Envoyer" onclick='empty()'/>
+                                    <input type="reset" id="reset" value="Reset"/>
+                    </li>
+                    </ul>
+                    </form>
+                        </main>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------------------------->
+        <section class="featured-categories">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/41VloMir72L.jpg">    
+                    </div>
+                    <div class="col-md-4">
+                    <img src="https://ng.jumia.is/MoxTU3ESBDSrl-6afU8dBvm89HA=/fit-in/680x680/filters:fill(white):sharpen(1,0,false):quality(100)/product/71/872501/1.jpg">    
+                    </div>
+                    <div class="col-md-4">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71T43F0sd0L._UX679_.jpg">    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------On sale products------------------- -->
+        <section class="on-sale">
+            <div class="container">
+                <div class="title-box">
+                    <h2>On Sale</h2>
+                </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://www.grossiste-bijoux.com/16753-thickbox_default/1p-stud-earrings-pearls-and-feathers-collection-2018-dream-catcher-73920.jpg" class="img1">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick shop">
+                                    <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                    <i class="fas fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                    <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <h3>Earrings Pearls Dream Catcher</h3>
+                        <h5>$3.00</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                <div class="product-top">
+                        <img src="https://origin.saint-james.com/fr/media/catalog/product/cache/6/small_image/400x560/9df78eab33525d08d6e5fb8d27136e95/5/1/5165-plb-1-foulard_tropical.jpg" class="img2">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick shop">
+                                    <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                    <i class="fas fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" data-toggle="modal1" title="Add to wish list" data-target="#exampleModal1">
+                                    <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center2">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <h3>Echarpes Foulard Chèches</h3>
+                        <h5>$20.00</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                        <img src="https://media.aws.alkosto.com/media/catalog/product/cache/3/image/8bf9d84cc5f65bd89f2d4160406987fb/e/s/es-galaxy-watch-r810-sm-r810nzdaphe-rperspectivegold-111698239.jpg" class="img3">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick shop">
+                                    <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                    <i class="fas fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                    <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center3">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <h3>Samsung Galaxy Watch</h3>
+                        <h5>$800</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-------------------------------------------------CheckoutArea------------------------------------------------------>
+   <section class="checkout-area">
+     <center>
+       <h2>Checkout Area</h2>
+       <div class="container">
+   <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="checkout">
+              <p class="unit">Item1: </p> <p id="price1" data-price="3.00">3.00</p><p class="unit">$</p>
+                 <div class="quantity">
+                         <button onclick="qtrFunction('I',1),price(1)" class="plus-btn" type="button" name="button"><strong>+</strong></button>
+                             <p id="qt1"> 0 </p>
+                             <button onclick="qtrFunction('D',1),price(1)" class="minus-btn" type="button" name="button"><strong>-</strong></button>
+                             <p class="total">Total $: <span id="total1"></span></p>
+                 </div>
+             </div>
+         <div class="checkout">
+            <p class="unit">Item2: </p> <p id="price2" data-price="20.00">20.00</p><p class="unit">$</p>
+                 <div class="quantity">
+                        <button onclick="qtrFunction('I',2),price(2)" class="plus-btn" type="button" name="button"><strong>+</strong></button>
+                          <p id="qt2"> 0 </p>
+                          <button onclick="qtrFunction('D',2),price(2)" class="minus-btn" type="button" name="button"><strong>-</strong></button>
+                         <p class="total">Total $: <span id="total2"></span></p>
+                 </div>
+         </div>
+         <center>
+         <div class="checkout">
+            <p class="unit">Item3: </p> <p id="price3" data-price="800.00">800.00</p><p class="unit">$</p>
+                 <div class="quantity">
+                        <button onclick="qtrFunction('I',3),price(3)" class="plus-btn" type="button" name="button"><strong>+</strong></button>
+                          <p id="qt3"> 0 </p>
+                          <button onclick="qtrFunction('D',3),price(3)" class="minus-btn" type="button" name="button"><strong>-</strong></button>
+                         <p class="total">Total $: <span id="total3"></span></p>
+                 </div>
+         </div>
+        </center>
+      <div class="checkout">
+             <button onclick="totalprice()" class="totalprix"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hcY3nGMBGA9exdFQhKvSFg25PKvKKKFEiFw6hvOThTWoJXsAfw" href="" class="imgtotalprice">
+             </button> 
+             <p class="total8">Total $: <span id="total"></span></p>
+      </div>
+    </div>
+  </center>
+   </section>
+   <!-- ------------------------------------------------Footer------------------------------------------------ -->
+    <footer>
+   <section class="footers bg-light pt-5 pb-3">
+          <div class="container pt-5">
+              <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
+                   <div class="footers-logo">
+                       <img src="https://png.pngtree.com/element_our/png_detail/20180823/bundle-shopping-logo-design-template-vector-png_62614.jpg" alt="Logo" style="width:120px;">
+                   </div>
+                   <div class="footers-info mt-3">
+                       <p>Cras sociis natoque penatibus et magnis Lorem Ipsum tells about the compmany right now the best.</p>
+                   </div>
+                   <div class="social-icons"> 
+                       <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+                       <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+                     <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+                     <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                 </div>
+               </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+                   <h5>Essentials </h5>
+                   <ul class="list-unstyled">
+                  <li><a href="maintenance.html">Search</a></li>
+                  <li><a href="about.html">Advertise with us</a></li>
+                  <li><a href="about.html">Dealers Portal</a></li>
+                  <li><a href="about.html">Post Requirements</a></li>
+                 </ul>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+                  <h5>Information </h5>
+                  <ul class="list-unstyled">
+                 <li><a href="maintenance.html">Register Now</a></li>
+                 <li><a href="contact.html">Advice</a></li>
+                 <li><a href="about.html">Videos</a></li>
+                 <li><a href="about.html">Blog</a></li>
+                 <li><a href="about.html">Services</a></li>
+                </ul>
+              </div>
+               <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
+                  <h5>Explore </h5>
+                  <ul class="list-unstyled">
+                 <li><a href="maintenance.html">News</a></li>
+                 <li><a href="contact.html">Sitemap</a></li>
+                 <li><a href="about.html">Testimonials</a></li>
+                 <li><a href="about.html">Feedbacks</a></li>
+                 <li><a href="about.html">User Agreement</a></li>
+                </ul>
+              </div>
+               <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
+                  <h5>Company </h5>
+                  <ul class="list-unstyled">
+                 <li><a href="maintenance.html">Career</a></li>
+                 <li><a href="about.html">For Parters</a></li>
+                 <li><a href="about.html">Terms</a></li>
+                 <li><a href="about.html">Policy</a></li>
+                 <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+              
+             </div>
+         </div>
+      </section>
+      <section class="disclaimer bg-light border">
+          <div class="container">
+              <div class="row ">
+                  <div class="col-md-12 py-2">
+                      <small>
+                         Disclaimer: Element Limited is only an intermediary offering its platform to facilitate the transactions between Seller and Customer/Buyer/User and is not and cannot be a party to or control in any manner any transactions between the Seller and the Customer/Buyer/User. All the offers and discounts on this Website have been extended by various Builder(s)/Developer(s) who have advertised their products. Element is only communicating the offers and not selling or rendering any of those products or services. It neither warrants nor is it making any representations with respect to offer(s) made on the site. Element Limited shall neither be responsible nor liable to mediate or resolve any disputes or disagreements between the Customer/Buyer/User and the Seller and both Seller and Customer/Buyer/User shall settle all such disputes without involving Element Limited in any manner.
+                     </small>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="copyright border">
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-md-12 pt-3">
+                      <p class="text-muted">© 2019 xyz Software Pvt. Ltd.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+   </footer>
+  </body>
